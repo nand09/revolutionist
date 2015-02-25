@@ -1,12 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Bad+Script);
 
-$body-bg:	 						#f1c40f;
-$font-family: 'Bad Script', cursive; 
-$navbar-height:				55px;
-$navbar-inverse-bg:  	#2c3e50;
-$navbar-inverse-link-color: red;
+$body-bg:                                                   #ecf0f1;
+$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                                        45px;
+$navbar-default-bg:                          white;
+$navbar-default-brand-color:      #c0392b;
+$brand-primary:                                    #c0392b;
+$jumbotron-bg:                                         white;
 
-$jumbotron-bg: #8e44ad;
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
 
 
 @import 'bootstrap';
