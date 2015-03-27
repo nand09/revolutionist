@@ -1,8 +1,8 @@
-Rails.application.routes.draw do
+Revolutionist::Application.routes.draw do
   resources :pins
 
   devise_for :users
-  root "pages#home"
+  root "pins#index"
   get "about" => "pages#about" # creates about_path
   get "thanks" => "pages#thanks"
   # The priority is based upon order of creation: first created -> highest priority.
